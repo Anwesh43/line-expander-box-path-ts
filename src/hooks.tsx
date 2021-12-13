@@ -20,7 +20,7 @@ export const useAnimatedScale = () => {
                         }
                         return prev + scGap 
                     })                    
-                })
+                }, delay)
             }
         }
     }
